@@ -13,7 +13,7 @@ while (!chnageSeat());
 
 function chnageSeat() {
     // To lose reference
-    let tempBoat = boat.map((g) => { return g.slice(); });
+    let tempBoat = boat.map(b => { return b.slice(); });
 
     for(let i = 0; i < tempBoat.length; i++) {
         let row = tempBoat[i];
